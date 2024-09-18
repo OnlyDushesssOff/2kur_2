@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/main.cpp.o: \
- /home/s23380405@unn.global/Projects/2kur_2/main.cpp \
+CMakeFiles/main.dir/Patient.cpp.o: \
+ /home/s23380405@unn.global/Projects/2kur_2/Patient.cpp \
  /usr/include/stdc-predef.h \
  /home/s23380405@unn.global/Projects/2kur_2/Patient.h \
  /usr/include/c++/12/iostream \
@@ -157,6 +157,4 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
  /usr/include/c++/12/limits /usr/include/c++/12/ctime \
  /usr/include/c++/12/bits/parse_numbers.h /usr/include/c++/12/sstream \
- /usr/include/c++/12/bits/sstream.tcc \
- /home/s23380405@unn.global/Projects/2kur_2/PatientQueue.h \
- /home/s23380405@unn.global/Projects/2kur_2/Doctor.h
+ /usr/include/c++/12/bits/sstream.tcc

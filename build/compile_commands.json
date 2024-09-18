@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/s23380405@unn.global/Projects/2kur_2/build",
-  "command": "/usr/bin/g++-12   -g -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380405@unn.global/Projects/2kur_2/main.cpp",
+  "command": "/usr/bin/g++-12   -g -std=gnu++20 -o CMakeFiles/main.dir/Patient.cpp.o -c /home/s23380405@unn.global/Projects/2kur_2/Patient.cpp",
+  "file": "/home/s23380405@unn.global/Projects/2kur_2/Patient.cpp"
+},
+{
+  "directory": "/home/s23380405@unn.global/Projects/2kur_2/build",
+  "command": "/usr/bin/g++-12   -g -std=gnu++20 -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380405@unn.global/Projects/2kur_2/main.cpp",
   "file": "/home/s23380405@unn.global/Projects/2kur_2/main.cpp"
 }
 ]

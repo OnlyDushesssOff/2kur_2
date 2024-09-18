@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Patient.o: Patient.cpp.o
+.PHONY : Patient.o
+
+# target to build an object file
+Patient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Patient.cpp.o
+.PHONY : Patient.cpp.o
+
+Patient.i: Patient.cpp.i
+.PHONY : Patient.i
+
+# target to preprocess a source file
+Patient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Patient.cpp.i
+.PHONY : Patient.cpp.i
+
+Patient.s: Patient.cpp.s
+.PHONY : Patient.s
+
+# target to generate assembly for a file
+Patient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Patient.cpp.s
+.PHONY : Patient.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... Patient.o"
+	@echo "... Patient.i"
+	@echo "... Patient.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
